@@ -1,12 +1,32 @@
 body {
-  background-color: tan;
+  background-color: #E2C867;
   font-family: sans-serif;
+  font-size: 16px;
   margin-left: 10%
 }
 h2, h3{
   font-family: arial;
-  color: green;
+  color: black;
 }
-.Coffee{
-  color: red;
+.coffee {
+  border-style: solid;
+  border-width: medium;
+  border-color: white;
+  border-radius: 20px;
+}
+#arrow {
+  border-width: medium;
+  border-color: black;
+  border-style: solid;
+  border-radius: 50px;
+}
+#mission {
+  line-height: 1.6em;
+  border-style: solid;
+  border-width: thick;
+  border-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 500px;
+  margin-left: 30px;
 }
