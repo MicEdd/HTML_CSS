@@ -1,0 +1,27 @@
+html, body {
+  background-color: #919698;
+  font-size: 1.5em;
+  font-family: sans-serif;
+}
+div {
+  border-width: thin;
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+  width: 11%
+}
+div:nth-child(1) {
+  background-color: yellow;
+}
+div:nth-child(2) {
+    background-color: orange;
+}
+div:nth-child(3) {
+    background-color: #1B98D6;
+}
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
